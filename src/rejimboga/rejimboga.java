@@ -9,8 +9,8 @@ public class rejimboga {
         System.out.print("Введіть рік, який ви хочете перевірити:");
         int a = sc.nextInt();
 
-        if (a % 4 == 0 || a % 400 == 0)
-            System.out.println("Це високосній рік");
+        if (a % 4 == 0 || a % 400 == 0 && a % 100 == 00)
+            System.out.println("Це високосний рік");
         else
             System.out.println("Це невисокосний рік");
     }
